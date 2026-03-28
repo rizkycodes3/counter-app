@@ -11,7 +11,7 @@ Sebuah aplikasi penghitung sederhana namun sangat responsif, dibangun dengan HTM
 
 ## Teknologi yang Digunakan
 
-- HTML5: Struktur semantik menggunakan tag <main>, <h1>, dan <button>.
+- HTML5: Struktur semantik menggunakan tag main, h1, dan button.
 - CSS3:
   - Flexbox: Digunakan untuk memposisikan kontainer utama di tengah layar.
   - CSS Grid: Digunakan untuk mengatur tata letak tombol dan teks secara presisi pada berbagai resolusi.
