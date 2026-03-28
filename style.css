@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+main {
+  display: grid;
+  grid-template-rows: 1fr 1.5fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  width: 70vw;
+  height: 50vh;
+  border: 2px solid rgb(44, 44, 44);
+  border-radius: 8px;
+  text-align: center;
+  padding: 1rem;
+}
+main h1 {
+  border-bottom: 2px solid rgb(44, 44, 44);
+}
+main h2 {
+  font-size: 2rem;
+  color: rgb(44, 44, 44);
+}
+main button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 90%;
+  margin: 0 auto;
+  letter-spacing: 2px;
+}
+#increment {
+  background-color: #3c6aff;
+  color: white;
+}
+#increment:active {
+  background-color: #2a4db7;
+  transform: scale(0.97);
+}
+#decrement {
+  background-color: #ff4c4c;
+  color: white;
+}
+#decrement:active {
+  background-color: #b72a2a;
+  transform: scale(0.97);
+}
+#reset {
+  background-color: #777777;
+  color: white;
+}
+#reset:active {
+  background-color: #555555;
+  transform: scale(0.97);
+}
+/** Tablet */
+@media (min-width: 768px) {
+  main p {
+    font-size: 2rem;
+  }
+  main h1 {
+    font-size: 3rem;
+  }
+  main h2 {
+    font-size: 3.5rem;
+  }
+  main button {
+    font-size: 1.5rem;
+    width: 80%;
+    height: 85%;
+  }
+}
+/** Desktop Medium */
+@media (min-width: 1024px) {
+  main {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1.5fr 1fr 1fr;
+    height: 70vh;
+    padding: 2rem;
+  }
+  main h1 {
+    grid-column: 1 / -1;
+  }
+  main p {
+    grid-column: 1 / -1;
+    padding-top: 10px;
+  }
+  main h2 {
+    grid-column: 1 / -1;
+  }
+  main button {
+    width: 90%;
+  }
+}
+/** Desktop Large */
+@media (min-width: 1280px) {
+  main {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1.5fr 1fr 1fr;
+    height: 70vh;
+    padding: 2rem;
+  }
+  main h1 {
+    grid-column: 1 / -1;
+    padding-top: 10px;
+  }
+  main p {
+    grid-column: 1 / -1;
+    padding-top: 20px;
+  }
+  main h2 {
+    grid-column: 1 / -1;
+  }
+  main #increment {
+    grid-column: 1 / 2;
+    width: 90%;
+  }
+  main #decrement {
+    grid-column: 2 / 3;
+    width: 90%;
+  }
+  main #reset {
+    grid-column: 3 / 4;
+    width: 90%;
+  }
+}
