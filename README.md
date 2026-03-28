@@ -16,7 +16,7 @@ Sebuah aplikasi penghitung sederhana namun sangat responsif, dibangun dengan HTM
   - Flexbox: Digunakan untuk memposisikan kontainer utama di tengah layar.
   - CSS Grid: Digunakan untuk mengatur tata letak tombol dan teks secara presisi pada berbagai resolusi.
   - Media Queries: Optimalisasi tampilan untuk Tablet (768px), Desktop Medium (1024px), hingga Desktop Large (1280px).
-  - JavaScript (ES6+): Logika aplikasi menggunakan event listeners dan manipulasi textContent.
+- JavaScript (ES6+): Logika aplikasi menggunakan event listeners dan manipulasi textContent.
 
 ## Preview Layout
 
